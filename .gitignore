@@ -1,0 +1,30 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Model binaries (optional to ignore or track; we track sample or ignore large binaries)
+# models/*.joblib
+
+# Streamlit config / cache
+.streamlit/*
+!.streamlit/config.toml
+
+# Temporary files
+*.tmp
+*.log

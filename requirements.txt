@@ -1,0 +1,15 @@
+# Core Machine Learning & Data Science Libraries
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# NLP & Text Preprocessing
+nltk>=3.8.1
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Web Application
+streamlit>=1.28.0

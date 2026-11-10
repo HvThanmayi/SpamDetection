@@ -1,0 +1,242 @@
+{
+    "best_model_name": "Support Vector Machine (LinearSVC)",
+    "dataset_stats": {
+        "total_comments": 1754,
+        "ham_count": 913,
+        "spam_count": 841,
+        "train_size": 1403,
+        "test_size": 351
+    },
+    "comparison_table": [
+        {
+            "Model": "Support Vector Machine (LinearSVC)",
+            "Accuracy": 0.9544,
+            "Precision": 0.9524,
+            "Recall": 0.9524,
+            "F1-Score": 0.9524,
+            "False Positives (Ham -> Spam)": 8,
+            "False Negatives (Spam -> Ham)": 8
+        },
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.9544,
+            "Precision": 0.9634,
+            "Recall": 0.9405,
+            "F1-Score": 0.9518,
+            "False Positives (Ham -> Spam)": 6,
+            "False Negatives (Spam -> Ham)": 10
+        },
+        {
+            "Model": "Random Forest Classifier",
+            "Accuracy": 0.9544,
+            "Precision": 0.981,
+            "Recall": 0.9226,
+            "F1-Score": 0.9509,
+            "False Positives (Ham -> Spam)": 3,
+            "False Negatives (Spam -> Ham)": 13
+        },
+        {
+            "Model": "Multinomial Naive Bayes",
+            "Accuracy": 0.943,
+            "Precision": 0.9625,
+            "Recall": 0.9167,
+            "F1-Score": 0.939,
+            "False Positives (Ham -> Spam)": 6,
+            "False Negatives (Spam -> Ham)": 14
+        }
+    ],
+    "models_evaluation": [
+        {
+            "model_name": "Multinomial Naive Bayes",
+            "accuracy": 0.9430199430199431,
+            "precision": 0.9625,
+            "recall": 0.9166666666666666,
+            "f1_score": 0.9390243902439024,
+            "true_negatives": 177,
+            "false_positives": 6,
+            "false_negatives": 14,
+            "true_positives": 154,
+            "confusion_matrix": [
+                [
+                    177,
+                    6
+                ],
+                [
+                    14,
+                    154
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.9267015706806283,
+                    "recall": 0.9672131147540983,
+                    "f1-score": 0.946524064171123,
+                    "support": 183.0
+                },
+                "1": {
+                    "precision": 0.9625,
+                    "recall": 0.9166666666666666,
+                    "f1-score": 0.9390243902439024,
+                    "support": 168.0
+                },
+                "accuracy": 0.9430199430199431,
+                "macro avg": {
+                    "precision": 0.9446007853403142,
+                    "recall": 0.9419398907103824,
+                    "f1-score": 0.9427742272075127,
+                    "support": 351.0
+                },
+                "weighted avg": {
+                    "precision": 0.9438358616369087,
+                    "recall": 0.9430199430199431,
+                    "f1-score": 0.9429344766504021,
+                    "support": 351.0
+                }
+            }
+        },
+        {
+            "model_name": "Logistic Regression",
+            "accuracy": 0.9544159544159544,
+            "precision": 0.9634146341463414,
+            "recall": 0.9404761904761905,
+            "f1_score": 0.9518072289156626,
+            "true_negatives": 177,
+            "false_positives": 6,
+            "false_negatives": 10,
+            "true_positives": 158,
+            "confusion_matrix": [
+                [
+                    177,
+                    6
+                ],
+                [
+                    10,
+                    158
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.946524064171123,
+                    "recall": 0.9672131147540983,
+                    "f1-score": 0.9567567567567568,
+                    "support": 183.0
+                },
+                "1": {
+                    "precision": 0.9634146341463414,
+                    "recall": 0.9404761904761905,
+                    "f1-score": 0.9518072289156626,
+                    "support": 168.0
+                },
+                "accuracy": 0.9544159544159544,
+                "macro avg": {
+                    "precision": 0.9549693491587322,
+                    "recall": 0.9538446526151444,
+                    "f1-score": 0.9542819928362096,
+                    "support": 351.0
+                },
+                "weighted avg": {
+                    "precision": 0.9546084395438771,
+                    "recall": 0.9544159544159544,
+                    "f1-score": 0.9543877519781133,
+                    "support": 351.0
+                }
+            }
+        },
+        {
+            "model_name": "Support Vector Machine (LinearSVC)",
+            "accuracy": 0.9544159544159544,
+            "precision": 0.9523809523809523,
+            "recall": 0.9523809523809523,
+            "f1_score": 0.9523809523809523,
+            "true_negatives": 175,
+            "false_positives": 8,
+            "false_negatives": 8,
+            "true_positives": 160,
+            "confusion_matrix": [
+                [
+                    175,
+                    8
+                ],
+                [
+                    8,
+                    160
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.9562841530054644,
+                    "recall": 0.9562841530054644,
+                    "f1-score": 0.9562841530054644,
+                    "support": 183.0
+                },
+                "1": {
+                    "precision": 0.9523809523809523,
+                    "recall": 0.9523809523809523,
+                    "f1-score": 0.9523809523809523,
+                    "support": 168.0
+                },
+                "accuracy": 0.9544159544159544,
+                "macro avg": {
+                    "precision": 0.9543325526932084,
+                    "recall": 0.9543325526932084,
+                    "f1-score": 0.9543325526932084,
+                    "support": 351.0
+                },
+                "weighted avg": {
+                    "precision": 0.9544159544159544,
+                    "recall": 0.9544159544159544,
+                    "f1-score": 0.9544159544159544,
+                    "support": 351.0
+                }
+            }
+        },
+        {
+            "model_name": "Random Forest Classifier",
+            "accuracy": 0.9544159544159544,
+            "precision": 0.9810126582278481,
+            "recall": 0.9226190476190477,
+            "f1_score": 0.950920245398773,
+            "true_negatives": 180,
+            "false_positives": 3,
+            "false_negatives": 13,
+            "true_positives": 155,
+            "confusion_matrix": [
+                [
+                    180,
+                    3
+                ],
+                [
+                    13,
+                    155
+                ]
+            ],
+            "classification_report": {
+                "0": {
+                    "precision": 0.9326424870466321,
+                    "recall": 0.9836065573770492,
+                    "f1-score": 0.9574468085106383,
+                    "support": 183.0
+                },
+                "1": {
+                    "precision": 0.9810126582278481,
+                    "recall": 0.9226190476190477,
+                    "f1-score": 0.950920245398773,
+                    "support": 168.0
+                },
+                "accuracy": 0.9544159544159544,
+                "macro avg": {
+                    "precision": 0.9568275726372402,
+                    "recall": 0.9531128024980484,
+                    "f1-score": 0.9541835269547057,
+                    "support": 351.0
+                },
+                "weighted avg": {
+                    "precision": 0.9557940219709748,
+                    "recall": 0.9544159544159544,
+                    "f1-score": 0.9543229834314548,
+                    "support": 351.0
+                }
+            }
+        }
+    ]
+}
